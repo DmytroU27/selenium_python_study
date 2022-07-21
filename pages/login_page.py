@@ -21,3 +21,4 @@ class LoginPage(BasePage):
             *LoginPageLocators.REGISTRATION_PASSWORD1), 'Registration password form is unavailable'
         assert self.is_element_present(
             *LoginPageLocators.REGISTRATION_PASSWORD2), 'Registration pasword confirm form is unavailable'
+
